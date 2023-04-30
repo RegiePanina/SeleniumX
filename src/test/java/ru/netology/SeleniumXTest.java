@@ -17,7 +17,7 @@ class SeleniumXTest {
     private WebDriver driver;
 
     @BeforeAll
-    static void setUpAll() {
+    static void setupClass() {
         WebDriverManager.chromedriver().setup();
     }
 
